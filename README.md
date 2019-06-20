@@ -15,3 +15,7 @@ To add colors or different buttons and a png of the image that has the name you 
 If you add a button that is an image of ice, name the image ice-button.png and store it in the same folder a jbutton.py, then to use this new button:
 
 jbutton "echo 'Water has frozen'" ice
+
+If you want to use this with out having to specify the full path consider doing this: 
+
+ln -s /location/of/jbutton.py /usr/bin/jbutton
